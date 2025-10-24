@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #060b18;
+  font-family: "Arial", sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+.slick-slide > div {
+  display: flex !important;
+  justify-content: center;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
