@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => (
   <footer className="footer">
     <div className="footer-content">
-      <p className="footer-text">© 2025 Project. All rights reserved.</p>
+      <p className="footer-text">© 2025 GameHub. All rights reserved.</p>
       <div className="social-links">
         <a href="#" aria-label="Twitter">
           Twitter
@@ -11,8 +11,8 @@ const Footer = () => (
         <a href="#" aria-label="Instagram">
           Instagram
         </a>
-        <a href="#" aria-label="Facebook">
-          Facebook
+        <a href="#" aria-label="YouTube">
+          YouTube
         </a>
         <a href="#" aria-label="Discord">
           Discord

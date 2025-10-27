@@ -9,7 +9,6 @@
   top: 0;
   z-index: 999;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
-  margin-bottom: 100px;
 }
 * {
   margin: 0;
@@ -50,5 +49,5 @@
 }
 
 .nav-links li a:hover {
-  color: #103775;
+  color: #103775; /* bright blue */
 }

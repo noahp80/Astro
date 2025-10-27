@@ -1,0 +1,145 @@
+.game-detail-fullscreen {
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 2rem 4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overlay-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(13, 27, 58, 0.9) 40%,
+    rgba(13, 27, 58, 0.6) 75%,
+    transparent 100%
+  );
+  z-index: 1;
+}
+
+.game-detail-left {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  padding-right: 3rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #9ca3af;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.back-link:hover {
+  color: #3b82f6;
+}
+
+.game-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+.game-description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.additional-info {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #cbd5e1;
+}
+.additional-info p {
+  margin: 0.4rem 0;
+}
+
+.website-link {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+.website-link:hover {
+  color: #60a5fa;
+}
+
+.purchase-section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3b82f6;
+}
+
+.buy-button {
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  padding: 0.9rem 2rem;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.buy-button:hover {
+  background-color: #2563eb;
+}
+
+.carousel-container {
+  max-width: 900px;
+}
+.carousel-slide-detail img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+}
+
+.slick-arrow {
+  z-index: 3;
+  color: white;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  color: #3b82f6;
+}
+
+.metacritic-score {
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-left: 0.3rem;
+}
+.score-high {
+  background-color: #22c55e;
+  color: #0f172a;
+}
+.score-medium {
+  background-color: #facc15;
+  color: #0f172a;
+}
+.score-low {
+  background-color: #ef4444;
+  color: #fff;
+}
