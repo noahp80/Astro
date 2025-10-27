@@ -1,0 +1,86 @@
+
+.game-card-mini-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+
+.game-card-mini {
+  width: 260px;
+  height: 260px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #1f2a44, #2e446b);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.game-card-mini:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+}
+
+
+.image-wrapper {
+  flex-grow: 1;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.game-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: brightness(0.95);
+}
+
+.game-card-mini:hover .game-image {
+  transform: scale(1.1);
+  filter: brightness(1.05);
+}
+
+
+.game-card-title {
+  margin-top: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  max-width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.3s ease;
+}
+
+.game-card-title:hover {
+  color: #ffbe33;
+  cursor: pointer;
+}
+
+.game-card-mini-border {
+  padding: 2px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #1e90ff, #8a2be2, #ff4b2b);
+  background-size: 300% 300%;
+  animation: borderGradient 4s ease infinite;
+  transition: transform 0.3s ease;
+}
+
+@keyframes borderGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

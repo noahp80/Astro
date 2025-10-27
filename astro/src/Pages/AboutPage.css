@@ -1,0 +1,32 @@
+.about-container {
+  padding: 3rem 1.5rem;
+  background-color: #0b1120;
+  min-height: 80vh;
+  color: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-hero {
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.about-description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+  margin-bottom: 1.25rem;
+}
+
+.about-description strong {
+  color: #ffbe33;
+  font-weight: 600;
+}

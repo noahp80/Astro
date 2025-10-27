@@ -15,6 +15,7 @@
   flex-direction: column;
   gap: 3rem;
 
+  /* Desktop layout */
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
@@ -77,6 +78,7 @@
   background-color: #ffc74f;
 }
 
+/* Contact details section */
 .contact-details {
   flex: 1;
   background-color: #111827;

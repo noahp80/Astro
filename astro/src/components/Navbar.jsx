@@ -1,7 +1,11 @@
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import SearchBar from "./SearchBar";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <nav className="navbar">
       <div className="nav-left">
@@ -20,6 +24,11 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+
+      <SearchBar
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
     </nav>
   );
 };
