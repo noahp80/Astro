@@ -32,8 +32,7 @@ This project is **still in progress** and created purely for **learning purposes
 - React  
 - Vite  
 - React Router DOM  
-- CSS  
-- (Optional: Axios for future API integration)  
+- CSS   
 
 ---
 
