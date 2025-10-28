@@ -5,7 +5,7 @@ import GamePage from "./pages/GamePage";
 import ErrorPage from "./pages/ErrorPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import GameDetail from "./pages/GameDetail";
+import GameDetail from "./Pages/GameDetail";
 import SearchResultsPage from "./pages/SearchResultsPage";
 import Contact from "./pages/Contact";
 
