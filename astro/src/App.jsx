@@ -1,11 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import GamePage from "./pages/GamePage";
 import ErrorPage from "./pages/ErrorPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import GameDetail from "./Pages/GameDetail";
+import GameDetail from "./pages/GameDetail";
 import SearchResultsPage from "./pages/SearchResultsPage";
 import Contact from "./pages/Contact";
 
